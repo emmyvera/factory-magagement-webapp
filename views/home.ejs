@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Profile</title>
+    <link rel="stylesheet" href="homeStyle.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="profile-card">
+        <div class="image-container">
+            <img src="_images/abbey_profile.jpg" style="width: 100%">
+            <div class="title">
+                <h2>Emmy Dev</h2>
+            </div>
+        </div>
+
+        <div class="main-container">
+                <p><i class="fa fa-briefcase info"></i>Hello, <%= name %></p>
+                <p><i class="fa fa-home info"></i>Niger NG</p>
+                <p><i class="fa fa-envelope info"></i><%= email %></p>
+                <p><i class="fa fa-phone info"></i>+2349034036212</p>
+                <hr>
+          
+            </div>
+
+            <div class="container">
+                    <div class=""></div>
+                        <div class="">
+                                <a href="/logout" class="btn btn-danger">Logout</a>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    
+</body>
+</html>
